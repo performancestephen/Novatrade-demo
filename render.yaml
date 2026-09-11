@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: novatrade-demo
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
